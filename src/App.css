@@ -1,0 +1,33 @@
+.App {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.boardWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.boardContainer {
+  width: 600px;
+  height: 600px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  font-size: 50px;
+}
